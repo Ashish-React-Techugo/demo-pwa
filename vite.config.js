@@ -15,7 +15,7 @@ export default defineConfig({
         short_name: 'demopwa',
         description: 'Website description(Could be same with index.html file)',
         theme_color: '#ffffff',
-        start_url: '/demo-pwa/',
+        start_url: '/demo-pwa/index.html?utm_source=homescreen',
         icons: [
           {
             src: 'demo.png',
