@@ -39,7 +39,14 @@
     background-color: #e6e6e6;
     transition: all 0.2s;
 }
+header{
+    height: 100vh;
+    position: relative;
+}
 .banner__fadeBottom{
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
     height: 37vh;
     background: linear-gradient(180deg, transparent, rgba(37,37,37,0.61),#111);
 }
